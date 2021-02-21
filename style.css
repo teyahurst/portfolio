@@ -95,7 +95,7 @@ hr {
     
 }  
 
-.about-me {
+.about-me, .contact{
     border: 3px dashed rgb(139, 147, 158);
     background-color: rgb(184, 189, 196);
     margin-left: 25%;
@@ -106,3 +106,49 @@ hr {
     
 }
 
+.contact {
+    margin-top: 5%;
+    margin-left: 35%;
+    padding: 2%;
+}
+
+
+.group {
+    display: flex;
+    flex-direction: row;
+}
+
+.item {
+    flex: 1;
+    margin: 2%;
+}
+
+.item img {
+    width: 75%;
+    height: 75%;
+    margin-left: 10%;
+
+}
+
+.item a {
+    color:rgb(22, 22, 22);
+    font-family: 'Roboto' sans-serif;
+    font-size: 18px;
+    margin-left: 35%;
+}
+
+.item a:visited {
+    text-decoration: line-through;
+}
+
+
+
+/*media queries */
+
+@media all and (min-width: 800px) {
+  
+    .group {
+      flex-direction: row;
+    }
+  
+  }
