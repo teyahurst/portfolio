@@ -238,8 +238,8 @@ header nav ul{
     }
   
     .contact iframe {
-        width: 600px;
-        height: 400px;
+        width: 50%;
+        height: 50%;
         margin-left: 16%;
         
     }
