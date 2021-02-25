@@ -141,8 +141,8 @@ form button {
 }
 
 .contact iframe {
-    height: 75%;
-    width: 75%;
+    height: 600px;
+    width: 400px;
     margin-left: 12%;
 }
 
@@ -150,6 +150,8 @@ form button {
 .group {
     display: flex;
     flex-direction: column;
+    flex-shrink:0;
+    overflow: hidden;
 }
 
 .item {
@@ -210,7 +212,7 @@ header nav ul{
 
 /*media queries */
 
-@media all and (min-width: 800px) {
+@media all and (min-width: 900px) {
     .img-container {
         width: 25%;
         height: 25%;
