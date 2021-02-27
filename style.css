@@ -71,7 +71,7 @@ a:hover {
 }
 
 a:visited {
-    color: beige;
+    color: rgb(184, 186, 187);
 }
 
 /* this styles my horizontal ruler to be smaller */
@@ -191,14 +191,14 @@ header nav ul{
     position: relative;
     display: flex;
     justify-content: center;
-    color: beige;
+    
     
 
 }
   
   header li a {
     display: block;
-    color: white;
+    color: beige;
     text-align: center;
     padding: 14px 16px;
     
