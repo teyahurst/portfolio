@@ -71,9 +71,12 @@ a:hover {
 }
 
 a:visited {
-    color: rgb(184, 186, 187);
+    color: rgb(53, 63, 68);
 }
 
+header a:visited {
+    color: rgb(184, 186, 187);
+}
 /* this styles my horizontal ruler to be smaller */
 
 hr {
