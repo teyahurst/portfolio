@@ -7,6 +7,7 @@ header, footer{
     position: relative;
     padding: 0%;
     margin-top: 2%;
+    color: beige;
 
 
   }
@@ -22,6 +23,7 @@ h1, h2, h3 {
 
 h1{
     font-size: 50px;
+    
 }
 
 p {
@@ -92,9 +94,10 @@ label {
     flex: column;
     margin-top: 3%;
 }
+
 form input {
-    margin-left: 2%;
-    width: 70%;
+    margin-left: 6%;
+    width: 100%;
 }
 
 form textarea {
@@ -239,8 +242,9 @@ header nav ul{
   
     .contact iframe {
         width: 600px;
-        height: 400px;
+        height: 450px;
         margin-left: 16%;
+        
         
     }
 
@@ -249,14 +253,14 @@ header nav ul{
     }
     
     form input {
-        width: 48%;
+        width: 50%;
         margin-left: 4%;
     }
 
     form textarea {
         height: 10rem;
         width: 50%;
-        margin-left: 5px;
+        margin-left: 1%;
 
     }
 
