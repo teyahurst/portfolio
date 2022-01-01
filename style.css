@@ -236,17 +236,19 @@ header nav ul{
     }
 
     img.eventplannerimg{
-        width: 80%;
+        width: 75%;
         height: 50%;
         margin-left: 10%;
     }
 
     img.dailyprogrammerimg{
         height: 50%;
+        width: 75%;
     }
 
     img.bookwormimg{
         height: 50%;
+        width: 75%;
 
     }
 
