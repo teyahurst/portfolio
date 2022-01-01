@@ -1,0 +1,289 @@
+/* This is the css for my top container */
+
+header, footer{
+    background-color: #48526d;
+    border: 3px solid #494849;
+    border-radius: 5px;
+    position: relative;
+    padding: 0%;
+    margin-top: 2%;
+    color: #f5f5dc;
+
+  }
+
+/* this is my css for my heading elements */
+
+h1, h2, h3 {
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    font-size: 32px;
+    
+}
+
+h1{
+    font-size: 50px;
+    
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+/* this adds texture to the background of my body */ 
+
+body {
+    background-image: url('./images/stripes-light.png')
+}
+
+
+ul {
+    list-style-position: inside;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 1%;
+
+}
+
+ol {
+    list-style-position: inside;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 1%;
+}
+
+/* this styles my links to change the font and changes cursor and background color when you hover on the link */
+a {
+    font-family: 'Roboto' sans-serif;
+    font-size: 18px;
+    color: black
+
+}
+
+a:hover {
+    background-color: wheat;
+    cursor: pointer;
+
+}
+
+a:visited {
+    color: rgb(53, 63, 68);
+}
+
+header a:visited {
+    color: rgb(184, 186, 187);
+}
+/* this styles my horizontal ruler to be smaller */
+
+hr {
+    width: 45%;
+    border-radius: 3%;
+    color: 8f71a0;
+    
+
+}
+
+/* form styling */
+
+label {
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    display: flex;
+    flex: column;
+    margin-top: 3%;
+}
+
+form input {
+    margin-left: 6%;
+    width: 100%;
+}
+
+form textarea {
+    height: 10rem;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 5%;
+}
+
+form button {
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    margin-left: 45%;
+    
+}
+
+
+
+
+/* styles my image class and my about me class */
+
+
+.about-me, .contact{
+    border: 3px dashed rgb(139, 147, 158);
+    background-color: rgb(184, 189, 196);
+    margin-left: 2%;
+    margin-right: 25%;
+    margin-bottom: 2%;
+    border-radius: 2%;
+    width: 90%;
+    padding-left: 3%;
+    padding-right: 3%;
+    
+    
+
+    
+}
+
+.contact {
+    margin-top: 5%;
+    padding: 2%;
+}
+
+.contact iframe {
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+}
+
+
+.group {
+    display: flex;
+    flex-direction: column;
+    flex-shrink:0;
+    overflow: hidden;
+}
+
+.item {
+    flex: 1;
+    margin: 2%;
+}
+
+.item img {
+    width: 75%;
+    height: 75%;
+    margin-left: 10%;
+
+}
+
+.item a {
+    color:rgb(22, 22, 22);
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    background-color: rgb(201, 193, 193);
+}
+
+.item a:visited {
+    text-decoration: line-through;
+}
+
+header nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    overflow: hidden;
+    background-color: #48526d;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+  
+  header li a {
+    display: block;
+    color: beige;
+    text-align: center;
+    padding: 14px 16px;
+    
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  header li a:hover {
+    background-color: rgb(241, 239, 219);
+    color:rgb(139, 147, 158);
+  }
+
+
+
+
+/*media queries */
+
+@media all and (min-width: 900px) {
+    .img-container {
+        width: 25%;
+        height: 25%;
+        margin-left: 38%;
+        
+    }
+  
+    .group {
+      flex-direction: row;
+      height: 75%;
+    }
+
+    .item {
+        display: block;
+    }
+
+    img.eventplannerimg{
+        width: 80%;
+        height: 50%;
+        margin-left: 10%;
+    }
+
+    img.dailyprogrammerimg{
+        height: 50%;
+    }
+
+    img.bookwormimg{
+        height: 50%;
+
+    }
+
+    .contact {
+        margin-top: 3%;
+        margin-left: 23%;
+        width: 50%;
+        padding-right: 0%;
+        
+
+    }
+  
+    .contact iframe {
+        width: 75%;
+        height: 450px;
+        margin-left: 12%;
+        
+    }
+
+    form {
+        margin-left: 15%;
+    }
+    
+    form input {
+        width: 50%;
+        margin-left: 4%;
+    }
+
+    form textarea {
+        height: 10rem;
+        width: 50%;
+        margin-left: 1%;
+
+    }
+
+    form button {
+        margin-left: 35%;
+    }
+
+  }
